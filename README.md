@@ -54,4 +54,3 @@ python main.py
 •	ETF 折溢價率：MoneyDJ
 •	新聞情緒資料：自建爬蟲與 NLP 分析結果
 •	VIX 恐慌指數：Yahoo Finance 或第三方匯出資料
-
