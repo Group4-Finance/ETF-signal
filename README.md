@@ -21,7 +21,7 @@ ETF 清單（含代碼與類型)-----來源:TWSE官網
 - 整合 **鉅亨網、兆豐金、PTT** 三大來源計算每日新聞情緒分數  
 - 匯入每日 **VIX 恐慌指數** 納入總分評估  
 - 計算加權總分，轉換為 **「深綠、淺綠、黃、淺紅、紅燈」五級投資燈號**  
-- 產出互動式圖表，並輸出每日總分與燈號 (`CSV`) 結果  
+- 產出互動式圖表，並輸出每日總分與燈號結果(`CSV`)
 
 ---
 
@@ -30,13 +30,13 @@ ETF 清單（含代碼與類型)-----來源:TWSE官網
 ETF_signal/
 │
 ├── ETF_data/
-│   ├── MoneyDJ_ETF_PremiumDiscount_ETF.csv      # 各ETF折溢價資料
-│   ├── sentiment_result.csv                     # 三大新聞來源情緒分析
-│   └── vix_daily.csv                            # VIX 恐慌指數每日資料
+│ ├── MoneyDJ_ETF_PremiumDiscount_ETF.csv # 各 ETF 折溢價資料
+│ ├── sentiment_result.csv # 新聞情緒及輿情資料分析
+│ └── vix_daily.csv # VIX 恐慌指數每日資料
 │
-├── main.py                                     # 主程式，產出評分與互動圖表
-├── 簡易回測結果.csv                             # 匯出：每日評分與燈號檔案
-└── signal_plot_interactive.html                # 匯出：互動式燈號圖表
+├── main.py # 主程式，產出評分與互動圖表
+├── 簡易回測結果.csv # 匯出：每日評分與燈號檔案
+└── signal_plot_interactive.html # 匯出：互動式燈號圖表
 
 ## ⚙️ 安裝與執行
 
