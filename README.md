@@ -1,12 +1,3 @@
-# ETF-signal
-
-ETF 清單（含代碼與類型)-----來源:TWSE官網
-
-雖無公開 API，但 HTML 結構穩定，可用 requests 爬蟲。
-
-
-每日收盤價-----來源:yfinance
-
 ##
 # 📊 ETF買賣決策助理
 
@@ -76,4 +67,14 @@ python main.py
 - ETF 折溢價率：來自 MoneyDJ 財經網  
 - 新聞情緒資料：鉅亨新聞網、兆豐新聞網（每日新聞）  
 - 網路輿情資料：PTT 財經版（Stock 版）  
-- VIX 恐慌指數：來自 Yahoo Finance  
+- VIX 恐慌指數：來自 Yahoo Finance
+
+
+# ETF-signal
+
+ETF 清單（含代碼與類型)-----來源:TWSE官網
+
+雖無公開 API，但 HTML 結構穩定，可用 requests 爬蟲。
+
+
+每日收盤價-----來源:yfinance
