@@ -25,16 +25,18 @@ ETF 清單（含代碼與類型)-----來源:TWSE官網
 
 ## 🗂️ 專案架構
 
+## 🗂 專案架構
+
 ETF_signal/
 │
 ├── ETF_data/
-│   ├── MoneyDJ_ETF_PremiumDiscount_0052.csv     # 各 ETF 折溢價資料
-│   ├── sentiment_result.csv                     # 新聞情緒及輿情資料分析
-│   └── vix_daily.csv                            # VIX 恐慌指數每日資料
+│ ├── MoneyDJ_ETF_PremiumDiscount_0052.csv # 各 ETF 折溢價資料
+│ ├── sentiment_result.csv # 新聞情緒及輿情資料分析
+│ └── vix_daily.csv # VIX 恐慌指數每日資料
 │
-├── main.py                                      # 主程式，產出評分與互動圖表
-├── 簡易回測結果.csv                              # 匯出：每日評分與燈號檔案
-└── signal_plot_interactive.html                 # 匯出：互動式燈號圖表
+├── main.py # 主程式，產出評分與互動圖表
+├── 簡易回測結果.csv # 匯出：每日評分與燈號檔案
+└── signal_plot_interactive.html # 匯出：互動式燈號圖表
 
 ## ⚙️ 安裝與執行
 
