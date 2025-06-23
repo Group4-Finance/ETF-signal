@@ -37,7 +37,7 @@ ETF_signal/
 ├── main.py # 主程式，產出評分與互動圖表
 ├── 簡易回測結果.csv # 匯出：每日評分與燈號檔案
 └── signal_plot_interactive.html # 匯出：互動式燈號圖表
-
+``` 
 ## ⚙️ 安裝與執行
 
 1️⃣ 安裝套件
