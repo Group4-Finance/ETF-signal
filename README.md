@@ -48,8 +48,11 @@ pip install pandas matplotlib numpy plotly
 python main.py
 
 ## 📈 輸出資料說明
-簡易回測結果.csv：包含每日市價、折溢價率、新聞情緒、VIX 分數、總分與對應燈號
-signal_plot_interactive.html：互動式市價與燈號變化圖，可用瀏覽器開啟觀察訊號
+- `簡易回測結果.csv`：  
+  包含每日市價、折溢價率、新聞情緒、VIX 分數、總分與對應燈號  
+
+- `signal_plot_interactive.html`：  
+  互動式市價與燈號變化圖，可用瀏覽器開啟觀察訊號  
 
 ## 🧮 加權分數計算邏輯
 
